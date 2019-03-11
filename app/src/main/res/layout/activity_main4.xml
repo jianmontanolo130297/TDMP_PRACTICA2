@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+   <ImageView
+       android:layout_width="170dp"
+       android:layout_height="170dp"
+       android:src="@drawable/pan"
+       android:id="@+id/bread"
+       android:layout_marginVertical="50dp"
+       android:layout_marginLeft="15dp"
+       />
+
+    <RadioButton
+        android:id="@+id/tug"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bread"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="15dp"
+        android:text="Pan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="whoich of these is the boy?"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="40dp"
+        android:id="@+id/titu"
+        />
+
+    <ImageView
+        android:id="@+id/water"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@+id/bread"
+        android:src="@drawable/agua"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        />
+    <RadioButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/agu"
+        android:layout_below="@+id/water"
+        android:layout_marginLeft="201dp"
+        android:text="Agua fresca"
+        />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/nino"
+        android:id="@+id/nin"
+        android:layout_below="@id/tug"
+        android:layout_marginLeft="15dp"
+        />
+   <RadioButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Niño"
+       android:layout_below="@+id/nin"
+       android:layout_marginLeft="15dp"
+       android:id="@+id/btnin"
+       />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/apple"
+        android:layout_toRightOf="@id/nin"
+        android:layout_below="@+id/agu"
+        android:id="@+id/mas"
+        android:layout_marginLeft="15dp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manzana"
+        android:layout_below="@+id/mas"
+        android:layout_toRightOf="@id/btnin"
+        android:layout_marginLeft="140dp"
+        />
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="MIRAME"
+        android:background="#562424"
+        android:textColor="#ffffff"
+        android:layout_below="@id/btnin"
+        />
+</RelativeLayout>
